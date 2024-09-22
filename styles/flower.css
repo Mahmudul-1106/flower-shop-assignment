@@ -1,0 +1,72 @@
+/* common shared styles */
+body {
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+}
+
+/* banner related styles */
+
+.banner {
+  background: rgba(229, 84, 115, 0.10);
+  padding: 0 240px;
+  display: flex;
+  gap: 100px;
+  /* justify-content: space-between; */
+}
+
+.banner-container {
+  padding: 240px 0 130px 0;
+}
+
+.banner-title {
+  margin: 0;
+  padding: 0 95px 0 0;
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.banner-description {
+  margin: 0;
+  padding: 30px 170px 30px 0;
+  color: rgba(39, 39, 39, 0.60);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 166.667% */
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: #E55473;
+  padding: 20px 40px;
+  color: #FFF;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.banner img {
+  padding: 50px 0 0 0;
+  /* width: 635px; */
+  /* height: 800px; */
+  flex-shrink: 0;
+}
