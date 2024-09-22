@@ -38,7 +38,6 @@ body {
 
 .text-primary {
   color: rgba(39, 39, 39, 0.60);
-  text-align: center;
   font-family: Lato;
   font-size: 18px;
   font-weight: 400;
@@ -92,6 +91,7 @@ body {
 .featured-flowers {
   padding: 50px 240px 50px 280px;
 }
+
 .featured-flowers h3 {
   margin: 0;
   /* padding: 150px 0 0 750px; */
@@ -101,10 +101,9 @@ body {
   padding: 20px 420px 0px 420px;
   width: 600px;
   margin: 0;
+  text-align: center;
+
 }
-
-
-
 
 .fea-flower {
   display: flex;
@@ -159,4 +158,35 @@ body {
 
 .flower-background-2 p {
   padding-top: 90px;
+}
+
+/* Delivery related styles */
+.delivery {
+  margin: 130px 280px 50px 280px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 85px 150px 85px 150px;
+}
+
+.del-item-con img {
+  padding: 0 0px 24px 125px;
+  margin: 0;
+}
+.del-item-3 img {
+  padding: 0 0px 24px 55px;
+  margin: 0;
+}
+
+.del-item-con{
+  display: flex;
+  justify-content: space-around;
+}
+
+.del-item-con p {
+  padding-right: 50px;
+  margin: 0;
+  color: rgba(39, 39, 39, 0.80);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
 }
