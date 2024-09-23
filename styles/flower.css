@@ -24,8 +24,10 @@ body {
   background: #E55473;
   padding: 20px 40px;
   color: #FFF;
+  font-family: Lato;
   font-size: 20px;
   font-weight: 700;
+  border: 0;
 }
 
 .section-title {
@@ -172,12 +174,13 @@ body {
   padding: 0 0px 24px 125px;
   margin: 0;
 }
+
 .del-item-3 img {
   padding: 0 0px 24px 55px;
   margin: 0;
 }
 
-.del-item-con{
+.del-item-con {
   display: flex;
   justify-content: space-around;
 }
@@ -189,4 +192,42 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 35px;
+}
+
+/* hot deal related styles */
+.hot-deal {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  gap: 195px;
+  /* justify-content: space-between; */
+  padding: 100px 430px 100px 400px;
+}
+
+.hot-deal h3 {
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 130px;
+  margin: 0;
+}
+
+.hot-deal h3 span {
+  color: #E55473;
+}
+
+.hot-deal p {
+  width: 600px;
+  text-align: center;
+  margin: 0;
+  padding: 24px 0 30px 0;
+}
+
+.hot-deal button {
+  margin-left: 220px;
+}
+
+.deal-image {
+  width: 318px;
+  height: 420px;
+  flex-shrink: 0;
 }
