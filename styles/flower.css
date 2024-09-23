@@ -255,3 +255,35 @@ body {
   height: 396px;
   flex-shrink: 0;
 }
+
+/* latest deal related styles */
+.latest-deal {
+  margin: 0 280px;
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+  background: url('../Flower Asset/Rectangle\ 9.png');
+  background-size: contain;
+}
+
+.latest-deal h3 {
+  padding: 122px 533px 0 533px;
+  margin: 0;
+}
+
+.latest-deal p {
+  text-align: center;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.latest-deal input {
+  margin-left: 285px;
+  margin-right: 15px;
+  margin-top: 50px;
+  padding: 22px 513px 22px 22px;
+  border-radius: 8px;
+  background: #FFF;
+  border: 0;
+}
+
