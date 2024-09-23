@@ -258,7 +258,7 @@ body {
 
 /* latest deal related styles */
 .latest-deal {
-  margin: 0 280px;
+  margin: 0 280px 130px 280px;
   width: 1440px;
   height: 449px;
   border-radius: 8px;
@@ -287,3 +287,42 @@ body {
   border: 0;
 }
 
+/* footer related styles */
+footer {
+  height: 450px;
+  background: #111010;
+}
+
+footer h3 {
+  margin: 0;
+  padding-top: 130px;
+  text-align: center;
+  color: #FFF;
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+footer span {
+  color: #E55473;
+}
+
+footer p {
+  margin: 24px 675px;
+  width: 625px;
+  color: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  /* 166.667% */
+}
+
+.licence {
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+}
