@@ -231,3 +231,27 @@ body {
   height: 420px;
   flex-shrink: 0;
 }
+
+/* instagram related styles */
+.insta-text h3 {
+  margin: 0;
+  padding-top: 128px;
+}
+
+.insta-text p {
+  text-align: center;
+  margin: 0;
+  padding: 20px 690px 50px 690px;
+}
+
+.insta-image-con {
+  margin: 0px 280px 130px 280px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.insta-image-con img {
+  width: 342px;
+  height: 396px;
+  flex-shrink: 0;
+}
